@@ -7,9 +7,9 @@ require.config({
   }
 });
  
-require(['http://pushtorun.herokuapp.com:80/socket.io/socket.io.js', 'app'], function(io, app) {
+require(['http://pushtorun.herokuapp.com/socket.io/socket.io.js', 'app'], function(io, app) {
   console.log("App initialized");
-   var socket = io.connect('http://pushtorun.herokuapp.com:80/');
+   var socket = io.connect('http://pushtorun.herokuapp.com/');
   	socket.on('update', function (data) {
     	console.log(data.msg);
       app.reloadEngine();

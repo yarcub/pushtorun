@@ -12,5 +12,6 @@ require(['http://pushtorun.herokuapp.com:80/socket.io/socket.io.js', 'app'], fun
    var socket = io.connect('http://pushtorun.herokuapp.com:80/');
   	socket.on('update', function (data) {
     	console.log(data.msg);
+      app.reloadEngine();
   	});
 });

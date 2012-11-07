@@ -7,6 +7,7 @@ define([], function() {
       c.style.background = 'red';
       c.style.color = 'black';
   		c.textContent = "someone pushed to github at " + new Date();
+      alert("Oleksandr?");
   	}
   }
 });

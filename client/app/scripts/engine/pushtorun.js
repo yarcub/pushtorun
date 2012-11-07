@@ -1,8 +1,8 @@
 define([], function() {
   return {
   	run : function(){
-  		alert("Hey did you pushed something!");
-  		console.log("alert + console log");
+  		var c = document.querySelector(".container");
+  		c.innerText = new Date() + "=>someone pushed to github";
   	}
   }
 });

@@ -6,7 +6,7 @@ define([], function() {
   		//this will update the client DOM when runned;
       c.style.background = 'red';
       c.style.color = 'black';
-  		c.textContent = "someone pushed to github";
+  		c.textContent = "someone pushed to github at " + new Date();
   	}
   }
 });

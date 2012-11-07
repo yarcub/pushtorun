@@ -1,7 +1,7 @@
 define([], function() {
   return {
   	run : function(){
-  		console.log("do stuff!")
+  		alert("Hey did you pushed something!");
   	}
   }
 });

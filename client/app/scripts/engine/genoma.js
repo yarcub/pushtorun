@@ -2,4 +2,4 @@
   genoma.bleat = function(){
     alert("Meeeeeeeeeeehhhhhhhhhhhhh");
   }
-}(Dolly.genoma));
+}(require('dolly').genoma));

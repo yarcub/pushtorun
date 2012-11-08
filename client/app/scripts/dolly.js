@@ -17,13 +17,17 @@ define([], function() {
 
 			reloadGenoma : function(genomaUrl){
 				console.log("[Dolly] loading genoma");
+
 				var bust = "?bust=" + (new Date()).getTime();
+
 				$.getScript(genomaUrl + bust, function(script, status){
+
 					if(status == "success"){
 						console.log("[Dolly] genoma up-to-date");
 					}else{
 						console.warn("[Dolly] something went wrong updating genoma");
 					}
+
 				});
 			}
 		};

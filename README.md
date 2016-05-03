@@ -10,3 +10,5 @@ After each commit the ["genoma.js"](https://github.com/yarcub/pushtorun/blob/mas
         ** Post commit hook _hits_ server (can also be simulate this at http://pushtorun.herokuapp.com/hook/)    
         ** Server notifies clients (via socket.io) of changes    
         ** Browser reloads genoma.js and replaces dolly.js module genoma definition     
+
+        Test mention-bot on own heroku instance
